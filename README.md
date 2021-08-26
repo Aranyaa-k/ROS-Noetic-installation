@@ -109,5 +109,33 @@ echo "source /home/user/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 **NOTE: REPLACE USER WITH YOUR OWN USER ID**
-### Cloning this repo and running a example
-Now we will clone this repo and 
+### Cloning this repo and compiling it
+Now we will clone this repositary and run a listener and talker example alternatively you can follow [this.](http://wiki.ros.org/noetic/Installation/Ubuntu) to make your own package and talker and listener node.
+
+To clone this repositary run this code from your home directory:
+```bash
+cd ~/catkin_ws/src
+git clone -b master https://github.com/Aranyaa-k/ROS-Noetic-installation
+cd ..
+catkin_make
+```
+Now your repositary is cloned and compiled we can finally run some ros code
+### Running our ROS nodes
+First we start the masternode:
+```bash
+roscore
+```
+Now we open another terminal and run our listener node:
+```bash
+rosrun ros_basics listener.py
+```
+Now we open one more terminal and run our talker node:
+```bash
+rosrun ros_basics talker.py
+```
+You can see how the listener and talker communicate
+
+For more ROS repositaries check out:
+https://github.com/dreadnoughtrobotics
+https://github.com/sacchinbhg
+https://github.com/Aranyaa-k
