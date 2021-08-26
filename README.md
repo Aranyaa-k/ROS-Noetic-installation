@@ -110,7 +110,7 @@ source ~/.bashrc
 ```
 **NOTE: REPLACE USER WITH YOUR OWN USER ID**
 ### Cloning this repo and compiling it
-Now we will clone this repositary and run a listener and talker example alternatively you can follow [this.](http://wiki.ros.org/noetic/Installation/Ubuntu) to make your own package and talker and listener node.
+Now we will clone this repositary and run a listener and talker example alternatively you can follow [this](https://github.com/Shreya-Ragi/ROS-noetic-packages) to make your own package and talker and listener node.
 
 To clone this repositary run this code from your home directory:
 ```bash
@@ -136,6 +136,7 @@ rosrun ros_basics talker.py
 You can see how the listener and talker communicate
 
 For more ROS repositaries check out:
-https://github.com/dreadnoughtrobotics
-https://github.com/sacchinbhg
-https://github.com/Aranyaa-k
+- https://github.com/dreadnoughtrobotics
+- https://github.com/Aranyaa-k
+- https://github.com/sacchinbhg
+- https://github.com/Shreya-Ragi
