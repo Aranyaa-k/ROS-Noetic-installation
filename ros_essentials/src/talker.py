@@ -8,7 +8,7 @@ def talker():
 
     i=1
     while not rospy.is_shutdown():
-        s="Bye World %s" % i
+        s="Niteesh is not dead %s" % i
         #rospy.loginfo(s)
         print(s)
         pub.publish(s)
