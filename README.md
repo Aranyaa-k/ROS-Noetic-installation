@@ -127,11 +127,11 @@ roscore
 ```
 - Now we open another terminal and run our listener node:
 ```bash
-rosrun ros_basics listener.py
+rosrun ros_essentials listener.py
 ```
 - Now we open one more terminal and run our talker node:
 ```bash
-rosrun ros_basics talker.py
+rosrun ros_essentials talker.py
 ```
 - You can see how the listener and talker communicate
 
